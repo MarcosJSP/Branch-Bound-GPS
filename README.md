@@ -1,2 +1,6 @@
 # Branch-Bound-GPS
-4 Branch &amp; Bound algorithms to solve the GPS problem
+Branch &amp; Bound implementations to solve the GPS problem:
+- Breadth search.
+- Depth search.
+- Best First.
+- Subestimation (h=distance between origin and destination).
