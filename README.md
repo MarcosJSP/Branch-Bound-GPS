@@ -10,7 +10,6 @@ Branch &amp; Bound implementations to solve the GPS problem:
 ## Some outputs
 
 ```
-
 ->breadth--------------------------------------------
 [A-B]
         visited nodes:16
