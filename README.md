@@ -7,9 +7,15 @@ Branch &amp; Bound implementations to solve the GPS problem:
 
 
 
-## Some outputs
+## Some examples of finding a path between [Origin-Destination], for a Romania graph, using the algorithms listed above:
+
+![Romanian graph](https://i1.wp.com/aiandgames.com/wp-content/uploads/2015/12/romania-graph.png?fit=892%2C588&ssl=1)
 
 ```
+% [O-D]
+% O->Capital initial letter of Origin point.
+% D->Capital initial letter of Destination point.
+
 ->breadth--------------------------------------------
 [A-B]
         visited nodes:16
