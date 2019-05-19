@@ -105,7 +105,6 @@ def graph_search(problem, fringe):
         node = fringe.pop()
         visited+=1
         if problem.goal_test(node.state):
-            expanded += 1
             print("\tvisited nodes:" + str(visited))
             print("\texpanded nodes:" + str(expanded))
             return node
@@ -128,8 +127,8 @@ def depth_first_graph_search(problem):
     return graph_search(problem, Stack())
 
 
-def branch_Bound_best_first(problem):
-    return graph_search(problem,bfQueue())
+def branch_Bound(problem):
+    return graph_search(problem,bbQueue())
 
 
 def branch_Bound_subestimation(problem):

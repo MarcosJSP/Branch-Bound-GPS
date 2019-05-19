@@ -545,7 +545,7 @@ class FIFOQueue(Queue):
 
         return e
 
-class bfQueue(Queue):
+class bbQueue(Queue):
     def __init__(self):
         self.A = []
         self.start = 0
